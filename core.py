@@ -13,18 +13,8 @@ class login_api(object):
         try:
             wh_username = str(req.params['username'])
             wh_password = str(req.params['password'])
-            
-            if  ((wh_username == str("neel")) and (wh_password == str("shah"))):
-                result_json = {
-                    "flag" : True,
-                    "Note" : "Succesfull!"
-                    }
-
-            else:
-                result_json = {
-                    "flag" : False,
-                    "Note": "Alert!!! Wrong username and password. Please check again and try"
-                    } 
+            result_json = login.login(wh_username,wh_password)
+             
         except:
             result_json = {
                 "flag" : False,
@@ -50,3 +40,4 @@ class singup_api(object):
         resp.body = json.dumps(result_json)
 app = falcon.API()
 app.add_route('/login', login_api())
+app.add_route('/singup',singup_api())
