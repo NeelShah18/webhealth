@@ -27,5 +27,5 @@ We are using three technology in backend.
 
 ## Design architecture:
 
-[Structure](archi.png)
+![Structure](/archi.png)
 
