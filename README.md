@@ -1,11 +1,11 @@
 # webhealth
 Web health information - realtime
 
-## Team member: Neel Shah(858905), Priyank Sabhaya(0648093), Jatin Patel(0699037)
+Team member: Neel Shah(858905), Priyank Sabhaya(0648093), Jatin Patel(0699037)
 
-## Title: US food pattern and its effect on health based on social media giant - twitter data in 2017-2018
+#### Title: US food pattern and its effect on health based on social media giant - twitter data in 2017-2018
 
-## About project: We have 30 million twitter data of recent years 2017-18 about the health system of US. Its web health informative system in which we retrieve the information about the food habits, per day calorie consumption, prediction of disease as per food habits among people in different states of US.[#Progress]
+About project: We have 30 million twitter data of recent years 2017-18 about the health system of US. Its web health informative system in which we retrieve the information about the food habits, per day calorie consumption, prediction of disease as per food habits among people in different states of US.[#Progress]
 
 ## Backend:
 We are using three technology in backend.
