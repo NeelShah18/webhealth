@@ -50,11 +50,14 @@ def login():
       password = form.password.data
 
       login_result = ln.login(email, password)
-      if login_result['flag'] == True:
-        session['email'] = form.email.data
-        return redirect(url_for('home'))
-      else:
-        return redirect(url_for('login'))
+      try:
+          if user is not None and login_result['flag'] == True:
+              session['email'] = form.email.data
+              return redirect(url_for('home'))
+          else:
+              return redirect(url_for('login'))
+     except:
+         return redirect(url_for('login'))
 
   elif request.method == 'GET':
     return render_template('login.html', form=form)
