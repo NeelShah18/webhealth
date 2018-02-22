@@ -56,7 +56,8 @@ def login():
               return redirect(url_for('home'))
           else:
               return redirect(url_for('login'))
-     except:
+
+      except:
          return redirect(url_for('login'))
 
   elif request.method == 'GET':
