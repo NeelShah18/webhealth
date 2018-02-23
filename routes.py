@@ -19,6 +19,7 @@ def about():
 
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
+  colours = ['Red', 'Blue', 'Black', 'Orange']
   if 'email' in session:
     return redirect(url_for('home'))
 
@@ -26,7 +27,7 @@ def signup():
 
   if request.method == "POST":
     if form.validate() == False:
-      return render_template('signup.html', form=form)
+      return render_template('signup.html', form=form, colours=colours)
     else:
       signup_result = ln.singup(form.first_name.data, form.last_name.data, form.username.data, form.password.data, form.email.data)
       session['email'] = form.email.data
@@ -50,15 +51,11 @@ def login():
       password = form.password.data
 
       login_result = ln.login(email, password)
-      try:
-          if user is not None and login_result['flag'] == True:
-              session['email'] = form.email.data
-              return redirect(url_for('home'))
-          else:
-              return redirect(url_for('login'))
-
-      except:
-         return redirect(url_for('login'))
+      if login_result['flag'] == True:
+          session['email'] = form.email.data
+          return redirect(url_for('home'))
+      else:
+          return redirect(url_for('login'))
 
   elif request.method == 'GET':
     return render_template('login.html', form=form)
