@@ -44,14 +44,38 @@ def login(email_txt, password_txt):
         }
     return result_json
 
-def singup(firstname, lastname, username, password, email):
+def update(email_txt, password_txt):
+    flag = False
+    result_json = {}
+    try:
+        if(isExists(str(email_txt))==True):
+            collection.update({"Email" : str(email_txt)},{ '$set': {"Hash_Value": crete_hash(password_txt)}})
+            return_json = {
+                "flag" : True,
+                "Note" : "Succesfull!"
+            }
+        else:
+            result_json = {
+                "flag" : False,
+                "Note" : "Username is not exits! Try different Email."
+            }
+    except:
+        return_json = {
+            "flag" : False,
+            "Note" : "Not succesfull, Sorry!"
+        }
+    return return_json
+
+def singup(firstname, lastname, username, password, email, food, exer):
     flag = False
     result_json = {
         "User_Name" : str(username),
         "Hash_Value" : crete_hash(password),
         "Email" : str(email),
         "First_Name" : str(firstname),
-        "Last_Name" : str(lastname)
+        "Last_Name" : str(lastname),
+        "Food" : str(food),
+        "Exer" : str(exer)
     }
     return_json = {}
     try:

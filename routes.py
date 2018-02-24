@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, session, redirect, url_for
 #from models import db, User, Place
-from forms import SignupForm, LoginForm
+from forms import SignupForm, LoginForm, ForgotForm
 import login as ln
 
 app = Flask(__name__)
@@ -24,17 +24,18 @@ def signup():
     return redirect(url_for('home'))
 
   form = SignupForm()
-
   if request.method == "POST":
     if form.validate() == False:
-      return render_template('signup.html', form=form, colours=colours)
+        print("here-->1")
+        return render_template('signup.html', form=form)
     else:
-      signup_result = ln.singup(form.first_name.data, form.last_name.data, form.username.data, form.password.data, form.email.data)
-      session['email'] = form.email.data
-      return redirect(url_for('home'))
+        signup_result = ln.singup(form.first_name.data, form.last_name.data, form.username.data, form.password.data, form.email.data, form.food.data, form.exer.data)
+        session['email'] = form.email.data
+        return redirect(url_for('home'))
 
   elif request.method == "GET":
-    return render_template('signup.html', form=form)
+     print("here-->3")
+     return render_template('signup.html', form=form)
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -59,6 +60,29 @@ def login():
 
   elif request.method == 'GET':
     return render_template('login.html', form=form)
+
+@app.route("/forgot", methods=["GET", "POST"])
+def forgot():
+  if 'email' in session:
+    return redirect(url_for('home'))
+
+  form = ForgotForm()
+
+  if request.method == "POST":
+    if form.validate() == False:
+      return render_template("forgot.html", form=form)
+    else:
+      email = form.email.data
+      password = form.password.data
+
+      login_result = ln.update(email, password)
+      if login_result['flag'] == True:
+          return redirect(url_for('login'))
+      else:
+          return redirect(url_for('forgot'))
+
+  elif request.method == 'GET':
+    return render_template('forgot.html', form=form)
 
 @app.route("/logout")
 def logout():

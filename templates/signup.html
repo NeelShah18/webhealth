@@ -69,13 +69,28 @@
         </div>
 
         <div class="form-group">
-          {{ form.state.label }}
-          {% if form.state %}
-              {{ form.state.data }}
+          {{ form.food.label }}
+
+          {% if form.food.errors %}
+            {% for error in form.food.errors %}
+              <p class="error-message">{{ error }}</p>
+            {% endfor %}
           {% endif %}
-          {{ form.state }}
+
+          {{ form.food }}
         </div>
 
+        <div class="form-group">
+          {{ form.exer.label }}
+
+          {% if form.exer.errors %}
+            {% for error in form.exer.errors %}
+              <p class="error-message">{{ error }}</p>
+            {% endfor %}
+          {% endif %}
+
+          {{ form.exer }}
+        </div>
 
         {{ form.submit(class="btn-primary") }}
       </form>
