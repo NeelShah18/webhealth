@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, session, redirect, url_for
 #from models import db, User, Place
 from forms import SignupForm, LoginForm, ForgotForm
 import login as ln
+import getme as gm
 
 app = Flask(__name__)
 
@@ -91,11 +92,12 @@ def logout():
 
 @app.route("/home", methods=["GET"])
 def home():
+  print(session['email'])
   if 'email' not in session:
     return redirect(url_for('login'))
 
   elif request.method == 'GET':
-    return render_template("home.html")
+    return render_template("home.html", saving=gm.money(session['email']), email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions")
 
 if __name__ == "__main__":
   app.run(debug=True)
