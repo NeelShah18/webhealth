@@ -95,7 +95,7 @@ def home():
     return redirect(url_for('login'))
 
   elif request.method == 'GET':
-    return render_template("home.html")
+    return render_template("main.html", saving='100', email="neel@neel.com", name="Neel Shah", facebook="7 Millions", Twitter="7.5 Millions")
 
 if __name__ == "__main__":
   app.run(debug=True)
