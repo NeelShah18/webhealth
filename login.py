@@ -1,11 +1,13 @@
 from pymongo import MongoClient
 import hashlib
+import random
+
+sav = ['1000', '1500', '200', '-1200', '3000', '-100']
 
 client = MongoClient()
 client = MongoClient('localhost', 27017)
 db = client['webhealth']
 collection = db['login']
-
 
 def crete_hash(st):
     pass_text = str(st)
@@ -68,6 +70,10 @@ def update(email_txt, password_txt):
 
 def singup(firstname, lastname, username, password, email, food, exer):
     flag = False
+    userdata_json = {
+    "Email" : str(email),
+    "Saving" : str(random.choice(sav))
+    }
     result_json = {
         "User_Name" : str(username),
         "Hash_Value" : crete_hash(password),
@@ -80,6 +86,7 @@ def singup(firstname, lastname, username, password, email, food, exer):
     return_json = {}
     try:
         if(isExists(str(email))==False):
+            db.userdata.insert_one(userdata_json)
             collection.insert_one(result_json)
             return_json = {
                 "flag" : True,
