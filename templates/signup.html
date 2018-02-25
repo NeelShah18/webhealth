@@ -68,10 +68,33 @@
           {{ form.password }}
         </div>
 
+        <div class="form-group">
+          {{ form.food.label }}
+
+          {% if form.food.errors %}
+            {% for error in form.food.errors %}
+              <p class="error-message">{{ error }}</p>
+            {% endfor %}
+          {% endif %}
+
+          {{ form.food }}
+        </div>
+
+        <div class="form-group">
+          {{ form.exer.label }}
+
+          {% if form.exer.errors %}
+            {% for error in form.exer.errors %}
+              <p class="error-message">{{ error }}</p>
+            {% endfor %}
+          {% endif %}
+
+          {{ form.exer }}
+        </div>
         {{ form.submit(class="btn-primary") }}
       </form>
     </div>
-  
+
 <div class="section-device">
         <img src="1.jpg" name="slide" alt="imageslideshow" width="400" height="400">
         <script type="text/javascript">
