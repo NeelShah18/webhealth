@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 client = MongoClient()
-client = MongoClient('localhost', 27017)
+client = MongoClient('mongodb://neel:shah@ds247078.mlab.com:47078/webhealth')
 db = client['webhealth']
 collection = db['userdata']
 
