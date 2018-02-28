@@ -12,7 +12,10 @@ app.secret_key = "development-key"
 
 @app.route("/")
 def index():
-  return render_template("index.html")
+      if 'email' in session:
+            return redirect(url_for('home'))
+      else:
+            return render_template("index.html")
 
 @app.route("/about")
 def about():

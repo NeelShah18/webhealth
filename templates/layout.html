@@ -1,39 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-<script type="text/javascript">
-<!-->
-var image1= new Image()
-image1.src="./static/img/1.jpg"
-var image2= new Image()
-image2.src="./static/img/2.jpg"
-var image3= new Image()
-image3.src="./static/img/3.jpg"
-var image4= new Image()
-image4.src="./static/img/4.jpg"
-var image5= new Image()
-image5.src="./static/img/5.jpg"
-var image6= new Image()
-image6.src="./static/img/6.jpg"
-var image7= new Image()
-image7.src="./static/img/7.jpg"
-var image8= new Image()
-image8.src="./static/img/8.jpg"
-
-</script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
-    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" >
-
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='CSS/main.css') }}">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
   </head>
-  <body background="img.jpg">
+  <body>
     <header>
-      <div class="container">
-        <h1 class="title">How healthy are you!</h1>
-	<a href="{{ url_for('logout') }}" class="btn-secondary" style="float: right;">Logout</a>
-      </div>
+        <center><img src="static/img/logo.png" style="max-height:100px; " alt="Logo" /></center>
     </header>
 
     {% block content %}
