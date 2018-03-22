@@ -1,11 +1,12 @@
 from pymongo import MongoClient
 import hashlib
 import random
+import cal as cp
 
 sav = ['1000', '1500', '200', '-1200', '3000', '-100']
 
 client = MongoClient()
-client = MongoClient('mongodb://neel:shah@ds247078.mlab.com:47078/webhealth')
+client = MongoClient('localhost', 27017)
 db = client['webhealth']
 collection = db['login']
 
@@ -81,7 +82,8 @@ def singup(firstname, lastname, username, password, email, food, exer):
         "First_Name" : str(firstname),
         "Last_Name" : str(lastname),
         "Food" : str(food),
-        "Exer" : str(exer)
+        "Exer" : str(exer),
+        "ana" : cp.Count_cal(text_food=str(food), text_exe=str(exer))
     }
     return_json = {}
     try:

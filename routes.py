@@ -97,6 +97,7 @@ def home():
     return redirect(url_for('login'))
 
   elif request.method == 'GET':
+    print(session['email'])
     return render_template("main.html", saving=gm.money(session['email']), email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions")
 
 if __name__ == "__main__":

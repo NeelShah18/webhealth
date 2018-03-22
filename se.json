@@ -1,0 +1,106 @@
+[
+  {
+    "name":"running",
+    "value":1074
+  },
+  {
+    "name": "jump rope",
+    "value": "1000"
+  },
+  {
+    "name": "soccer",
+    "value": 750
+  },
+  {
+    "name": "football",
+    "value": 750
+  },
+  {
+    "name": "boxing",
+    "value": 930
+  },
+  {
+    "name": "swimming",
+    "value": 715
+  },
+  {
+    "name": "tennis",
+    "value": 584
+  },
+  {
+    "name": "climbing",
+    "value": 584
+  },
+  {
+    "name": "aerobics",
+    "value": 533
+  },
+  {
+    "name": "ice skating",
+    "value": 511
+  },
+  {
+    "name": "skating",
+    "value": 350
+  },
+  {
+    "name": "skiing",
+    "value": 500
+  },
+  {
+    "name": "hiking",
+    "value": 438
+  },
+  {
+    "name": "water aerobics",
+    "value": 402
+  },
+  {
+    "name": "baseball",
+    "value": 365
+  },
+  {
+    "name": "kayaking",
+    "value": 365
+  },
+  {
+    "name": "weightlifting",
+    "value": 365
+  },
+  {
+    "name": "gym",
+    "value": 450
+  },
+  {
+    "name": "Jogging",
+    "value": 455
+  },
+  {
+    "name": "snowboarding",
+    "value": 314
+  },
+  {
+    "name": "power yoga",
+    "value": 294
+  },
+  {
+    "name": "yoga",
+    "value": 325
+  },
+  {
+    "name": "cycling",
+    "value": 365
+  },
+  {
+    "name": "tai chi",
+    "value": 219
+  },
+  {
+    "name": "dancing",
+    "value": 275
+  },
+  {
+    "name": "walking",
+    "value": 255
+  }
+]

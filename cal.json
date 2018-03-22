@@ -1,0 +1,1814 @@
+[
+ {
+   "name": "almond butter",
+   "value": 614
+ },
+ {
+   "name": "almond joy",
+   "value": 479
+ },
+ {
+   "name": "almonds",
+   "value": 575
+ },
+ {
+   "name": "american cheese",
+   "value": 371
+ },
+ {
+   "name": "anchovies",
+   "value": 210
+ },
+ {
+   "name": "angel food cake",
+   "value": 258
+ },
+ {
+   "name": "apple butter",
+   "value": 173
+ },
+ {
+   "name": "apple crisp",
+   "value": 161
+ },
+ {
+   "name": "apple fritter",
+   "value": 316
+ },
+ {
+   "name": "apple jacks",
+   "value": 366
+ },
+ {
+   "name": "apple pie",
+   "value": 265
+ },
+ {
+   "name": "apples",
+   "value": 52
+ },
+ {
+   "name": "applesauce",
+   "value": 42
+ },
+ {
+   "name": "apricot",
+   "value": 48
+ },
+ {
+   "name": "artichoke",
+   "value": 47
+ },
+ {
+   "name": "asparagus",
+   "value": 20
+ },
+ {
+   "name": "avocado",
+   "value": 160
+ },
+ {
+   "name": "bacon",
+   "value": 541
+ },
+ {
+   "name": "bacon cheeseburger",
+   "value": 282
+ },
+ {
+   "name": "bacon fat",
+   "value": 897
+ },
+ {
+   "name": "bag of popcorn",
+   "value": 532
+ },
+ {
+   "name": "bagel",
+   "value": 257
+ },
+ {
+   "name": "baked macaroni",
+   "value": 153
+ },
+ {
+   "name": "baked potato",
+   "value": 93
+ },
+ {
+   "name": "banana",
+   "value": 89
+ },
+ {
+   "name": "banana bread",
+   "value": 326
+ },
+ {
+   "name": "banana chips",
+   "value": 519
+ },
+ {
+   "name": "banana cream pie",
+   "value": 269
+ },
+ {
+   "name": "banana peppers",
+   "value": 27
+ },
+ {
+   "name": "banana pudding",
+   "value": 101
+ },
+ {
+   "name": "barley",
+   "value": 123
+ },
+ {
+   "name": "beef",
+   "value": 187
+ },
+ {
+   "name": "beef brisket",
+   "value": 251
+ },
+ {
+   "name": "beef jerky",
+   "value": 410
+ },
+ {
+   "name": "beef patty",
+   "value": 295
+ },
+ {
+   "name": "beef ribs",
+   "value": 359
+ },
+ {
+   "name": "beef stew",
+   "value": 99
+ },
+ {
+   "name": "beef stroganoff",
+   "value": 147
+ },
+ {
+   "name": "beefy crunch burrito",
+   "value": 189
+ },
+ {
+   "name": "beet",
+   "value": 43
+ },
+ {
+   "name": "ben and jerry''s ice cream",
+   "value": 249
+ },
+ {
+   "name": "bison burger",
+   "value": 238
+ },
+ {
+   "name": "black bean",
+   "value": 132
+ },
+ {
+   "name": "blooming onion",
+   "value": 411
+ },
+ {
+   "name": "blue cheese",
+   "value": 353
+ },
+ {
+   "name": "blueberry",
+   "value": 57
+ },
+ {
+   "name": "blueberry muffin",
+   "value": 285
+ },
+ {
+   "name": "blueberry pancakes",
+   "value": 222
+ },
+ {
+   "name": "blueberry pie",
+   "value": 245
+ },
+ {
+   "name": "blueberry waffles",
+   "value": 265
+ },
+ {
+   "name": "boiled peanuts",
+   "value": 318
+ },
+ {
+   "name": "bok choy",
+   "value": 13
+ },
+ {
+   "name": "bread",
+   "value": 270
+ },
+ {
+   "name": "bread crumbs",
+   "value": 395
+ },
+ {
+   "name": "breadsticks",
+   "value": 412
+ },
+ {
+   "name": "broccoli",
+   "value": 28
+ },
+ {
+   "name": "broccoli rabe",
+   "value": 22
+ },
+ {
+   "name": "broiled chicken",
+   "value": 144
+ },
+ {
+   "name": "brown rice",
+   "value": 112
+ },
+ {
+   "name": "brownies",
+   "value": 466
+ },
+ {
+   "name": "brussels sprouts",
+   "value": 43
+ },
+ {
+   "name": "buffalo chicken dip",
+   "value": 142
+ },
+ {
+   "name": "butter",
+   "value": 717
+ },
+ {
+   "name": "butter cake",
+   "value": 388
+ },
+ {
+   "name": "butter cookie",
+   "value": 467
+ },
+ {
+   "name": "butter sauce",
+   "value": 72
+ },
+ {
+   "name": "buttercream frosting",
+   "value": 408
+ },
+ {
+   "name": "buttermilk biscuits",
+   "value": 353
+ },
+ {
+   "name": "butternut squash",
+   "value": 40
+ },
+ {
+   "name": "butterscotch",
+   "value": 391
+ },
+ {
+   "name": "cabbage",
+   "value": 25
+ },
+ {
+   "name": "cake",
+   "value": 357
+ },
+ {
+   "name": "cake with frosting",
+   "value": 356
+ },
+ {
+   "name": "canadian bacon",
+   "value": 185
+ },
+ {
+   "name": "candied yams",
+   "value": 164
+ },
+ {
+   "name": "candy bar",
+   "value": 491
+ },
+ {
+   "name": "candy cigarettes",
+   "value": 360
+ },
+ {
+   "name": "canned tuna",
+   "value": 128
+ },
+ {
+   "name": "cantaloupe",
+   "value": 34
+ },
+ {
+   "name": "caramel popcorn",
+   "value": 431
+ },
+ {
+   "name": "carrot",
+   "value": 41
+ },
+ {
+   "name": "cashews",
+   "value": 553
+ },
+ {
+   "name": "catfish",
+   "value": 105
+ },
+ {
+   "name": "cauliflower",
+   "value": 25
+ },
+ {
+   "name": "celery",
+   "value": 16
+ },
+ {
+   "name": "cereal",
+   "value": 376
+ },
+ {
+   "name": "cheddar cheese",
+   "value": 403
+ },
+ {
+   "name": "cheese",
+   "value": 300
+ },
+ {
+   "name": "cheese bread",
+   "value": 408
+ },
+ {
+   "name": "cheese crackers",
+   "value": 489
+ },
+ {
+   "name": "cheese danish",
+   "value": 374
+ },
+ {
+   "name": "cheese dip",
+   "value": 143
+ },
+ {
+   "name": "cheese enchiladas",
+   "value": 196
+ },
+ {
+   "name": "cheese grits",
+   "value": 366
+ },
+ {
+   "name": "cheese in a can",
+   "value": 310
+ },
+ {
+   "name": "cheese nachos",
+   "value": 306
+ },
+ {
+   "name": "cheese omelet",
+   "value": 154
+ },
+ {
+   "name": "cheese puffs",
+   "value": 563
+ },
+ {
+   "name": "cheese sauce",
+   "value": 197
+ },
+ {
+   "name": "cheese stick",
+   "value": 329
+ },
+ {
+   "name": "cheeseburger",
+   "value": 303
+ },
+ {
+   "name": "cheesecake",
+   "value": 321
+ },
+ {
+   "name": "cheesesteak",
+   "value": 225
+ },
+ {
+   "name": "cheesy potatoes",
+   "value": 132
+ },
+ {
+   "name": "cherries",
+   "value": 63
+ },
+ {
+   "name": "cherry pie",
+   "value": 270
+ },
+ {
+   "name": "chicken",
+   "value": 190
+ },
+ {
+   "name": "chicken and dumplings",
+   "value": 93
+ },
+ {
+   "name": "chicken breast",
+   "value": 165
+ },
+ {
+   "name": "chicken burrito",
+   "value": 179
+ },
+ {
+   "name": "chicken caesar salad",
+   "value": 68
+ },
+ {
+   "name": "chicken cheesesteak",
+   "value": 277
+ },
+ {
+   "name": "chicken club",
+   "value": 220
+ },
+ {
+   "name": "chicken cutlets",
+   "value": 293
+ },
+ {
+   "name": "chicken feet",
+   "value": 215
+ },
+ {
+   "name": "chicken fingers",
+   "value": 270
+ },
+ {
+   "name": "chicken fries",
+   "value": 320
+ },
+ {
+   "name": "chicken legs",
+   "value": 174
+ },
+ {
+   "name": "chicken mcnuggets",
+   "value": 302
+ },
+ {
+   "name": "chicken noodle soup",
+   "value": 25
+ },
+ {
+   "name": "chicken nuggets",
+   "value": 296
+ },
+ {
+   "name": "chicken pasta",
+   "value": 100
+ },
+ {
+   "name": "chicken patties",
+   "value": 287
+ },
+ {
+   "name": "chicken pot pie",
+   "value": 198
+ },
+ {
+   "name": "chicken quesadilla",
+   "value": 294
+ },
+ {
+   "name": "chicken salad",
+   "value": 48
+ },
+ {
+   "name": "chicken sandwich",
+   "value": 283
+ },
+ {
+   "name": "chicken strips",
+   "value": 274
+ },
+ {
+   "name": "chicken taco",
+   "value": 189
+ },
+ {
+   "name": "chicken tenders",
+   "value": 299
+ },
+ {
+   "name": "chickpea",
+   "value": 164
+ },
+ {
+   "name": "chili cheese dog",
+   "value": 260
+ },
+ {
+   "name": "chips ahoy cookie",
+   "value": 474
+ },
+ {
+   "name": "chocolate cake",
+   "value": 371
+ },
+ {
+   "name": "chocolate cake with frosting",
+   "value": 389
+ },
+ {
+   "name": "chocolate candy",
+   "value": 492
+ },
+ {
+   "name": "chocolate chip pancakes",
+   "value": 253
+ },
+ {
+   "name": "chocolate cookie",
+   "value": 423
+ },
+ {
+   "name": "chocolate covered pretzels",
+   "value": 458
+ },
+ {
+   "name": "chocolate ice cream",
+   "value": 216
+ },
+ {
+   "name": "chocolate pudding",
+   "value": 142
+ },
+ {
+   "name": "cinnamon raisin bagel",
+   "value": 274
+ },
+ {
+   "name": "clam",
+   "value": 148
+ },
+ {
+   "name": "coconut oil",
+   "value": 862
+ },
+ {
+   "name": "cod",
+   "value": 85
+ },
+ {
+   "name": "coffee cake",
+   "value": 418
+ },
+ {
+   "name": "collards",
+   "value": 32
+ },
+ {
+   "name": "cookie crisp",
+   "value": 380
+ },
+ {
+   "name": "cookie dough",
+   "value": 451
+ },
+ {
+   "name": "cookies",
+   "value": 488
+ },
+ {
+   "name": "corn",
+   "value": 86
+ },
+ {
+   "name": "corn chips",
+   "value": 489
+ },
+ {
+   "name": "corn chowder",
+   "value": 61
+ },
+ {
+   "name": "corn dog",
+   "value": 267
+ },
+ {
+   "name": "corn flakes",
+   "value": 399
+ },
+ {
+   "name": "corn fritters",
+   "value": 337
+ },
+ {
+   "name": "corn muffin",
+   "value": 316
+ },
+ {
+   "name": "corn on the cob",
+   "value": 98
+ },
+ {
+   "name": "corn pops",
+   "value": 389
+ },
+ {
+   "name": "cornbread",
+   "value": 266
+ },
+ {
+   "name": "cornbread dressing",
+   "value": 179
+ },
+ {
+   "name": "corned beef",
+   "value": 250
+ },
+ {
+   "name": "corned beef hash",
+   "value": 164
+ },
+ {
+   "name": "corned beef sandwich",
+   "value": 245
+ },
+ {
+   "name": "cornish hens",
+   "value": 200
+ },
+ {
+   "name": "cottage cheese",
+   "value": 98
+ },
+ {
+   "name": "couscous",
+   "value": 112
+ },
+ {
+   "name": "crab",
+   "value": 83
+ },
+ {
+   "name": "crab cake",
+   "value": 266
+ },
+ {
+   "name": "crab meat",
+   "value": 83
+ },
+ {
+   "name": "crackers",
+   "value": 456
+ },
+ {
+   "name": "crayfish",
+   "value": 82
+ },
+ {
+   "name": "cream cheese",
+   "value": 342
+ },
+ {
+   "name": "cream cheese frosting",
+   "value": 415
+ },
+ {
+   "name": "creamed corn",
+   "value": 72
+ },
+ {
+   "name": "crunchy peanut butter",
+   "value": 589
+ },
+ {
+   "name": "cucumber",
+   "value": 15
+ },
+ {
+   "name": "dates",
+   "value": 282
+ },
+ {
+   "name": "deep dish pizza",
+   "value": 271
+ },
+ {
+   "name": "digiorno pizza",
+   "value": 256
+ },
+ {
+   "name": "donuts",
+   "value": 418
+ },
+ {
+   "name": "double cheeseburger",
+   "value": 308
+ },
+ {
+   "name": "duck fat",
+   "value": 882
+ },
+ {
+   "name": "dungeness crab",
+   "value": 110
+ },
+ {
+   "name": "egg",
+   "value": 155
+ },
+ {
+   "name": "egg mcmuffin",
+   "value": 228
+ },
+ {
+   "name": "egg noodles",
+   "value": 138
+ },
+ {
+   "name": "egg roll",
+   "value": 250
+ },
+ {
+   "name": "egg whites",
+   "value": 52
+ },
+ {
+   "name": "eggnog",
+   "value": 88
+ },
+ {
+   "name": "eggplant",
+   "value": 25
+ },
+ {
+   "name": "falafel",
+   "value": 333
+ },
+ {
+   "name": "feta cheese",
+   "value": 264
+ },
+ {
+   "name": "flatbread",
+   "value": 249
+ },
+ {
+   "name": "flounder",
+   "value": 86
+ },
+ {
+   "name": "fortune cookie",
+   "value": 378
+ },
+ {
+   "name": "french bread",
+   "value": 289
+ },
+ {
+   "name": "fried catfish",
+   "value": 229
+ },
+ {
+   "name": "fried chicken",
+   "value": 289
+ },
+ {
+   "name": "fried eggs",
+   "value": 196
+ },
+ {
+   "name": "fried mushrooms",
+   "value": 26
+ },
+ {
+   "name": "fried oysters",
+   "value": 265
+ },
+ {
+   "name": "fried plantains",
+   "value": 309
+ },
+ {
+   "name": "fried pork chops",
+   "value": 222
+ },
+ {
+   "name": "fried potatoes",
+   "value": 164
+ },
+ {
+   "name": "fried rice",
+   "value": 163
+ },
+ {
+   "name": "fried shrimp",
+   "value": 242
+ },
+ {
+   "name": "fried tofu",
+   "value": 271
+ },
+ {
+   "name": "fried turkey",
+   "value": 283
+ },
+ {
+   "name": "frozen pizza",
+   "value": 268
+ },
+ {
+   "name": "frozen yogurt",
+   "value": 159
+ },
+ {
+   "name": "fruit and walnut salad",
+   "value": 118
+ },
+ {
+   "name": "fruit flavored yogurt",
+   "value": 105
+ },
+ {
+   "name": "fruitcake",
+   "value": 324
+ },
+ {
+   "name": "garlic bread",
+   "value": 350
+ },
+ {
+   "name": "general tso''s chicken",
+   "value": 295
+ },
+ {
+   "name": "ghirardelli ice cream",
+   "value": 255
+ },
+ {
+   "name": "gingerbread cookie",
+   "value": 444
+ },
+ {
+   "name": "girl scout cookie",
+   "value": 502
+ },
+ {
+   "name": "glazed donut",
+   "value": 426
+ },
+ {
+   "name": "goat cheese",
+   "value": 364
+ },
+ {
+   "name": "goat meat",
+   "value": 143
+ },
+ {
+   "name": "graham crackers",
+   "value": 423
+ },
+ {
+   "name": "grapefruit",
+   "value": 32
+ },
+ {
+   "name": "grapes",
+   "value": 69
+ },
+ {
+   "name": "greek yogurt",
+   "value": 59
+ },
+ {
+   "name": "green beans",
+   "value": 31
+ },
+ {
+   "name": "green onion",
+   "value": 32
+ },
+ {
+   "name": "green peas",
+   "value": 81
+ },
+ {
+   "name": "green pepper",
+   "value": 20
+ },
+ {
+   "name": "green tomatoes",
+   "value": 23
+ },
+ {
+   "name": "grilled chicken sandwich",
+   "value": 182
+ },
+ {
+   "name": "grilled ham",
+   "value": 342
+ },
+ {
+   "name": "grits",
+   "value": 65
+ },
+ {
+   "name": "ground beef",
+   "value": 234
+ },
+ {
+   "name": "ground turkey",
+   "value": 203
+ },
+ {
+   "name": "haddock",
+   "value": 90
+ },
+ {
+   "name": "halibut",
+   "value": 111
+ },
+ {
+   "name": "ham",
+   "value": 273
+ },
+ {
+   "name": "ham and cheese sandwich",
+   "value": 241
+ },
+ {
+   "name": "hamburger",
+   "value": 295
+ },
+ {
+   "name": "hard candy",
+   "value": 394
+ },
+ {
+   "name": "herring",
+   "value": 203
+ },
+ {
+   "name": "honey baked ham",
+   "value": 122
+ },
+ {
+   "name": "hot dog",
+   "value": 247
+ },
+ {
+   "name": "hummus",
+   "value": 177
+ },
+ {
+   "name": "ice cream",
+   "value": 207
+ },
+ {
+   "name": "ice cream cone",
+   "value": 166
+ },
+ {
+   "name": "ice cream sandwich",
+   "value": 237
+ },
+ {
+   "name": "italian beef sandwich",
+   "value": 190
+ },
+ {
+   "name": "italian sausage",
+   "value": 344
+ },
+ {
+   "name": "jack cheese",
+   "value": 373
+ },
+ {
+   "name": "jelly donut",
+   "value": 340
+ },
+ {
+   "name": "kale",
+   "value": 49
+ },
+ {
+   "name": "kentucky fried chicken",
+   "value": 388
+ },
+ {
+   "name": "kettle corn",
+   "value": 381
+ },
+ {
+   "name": "key lime pie",
+   "value": 210
+ },
+ {
+   "name": "king cake",
+   "value": 362
+ },
+ {
+   "name": "king crab",
+   "value": 97
+ },
+ {
+   "name": "kiwis",
+   "value": 61
+ },
+ {
+   "name": "kung pao chicken",
+   "value": 129
+ },
+ {
+   "name": "lamb burger",
+   "value": 283
+ },
+ {
+   "name": "lamb chops",
+   "value": 188
+ },
+ {
+   "name": "lemon bar",
+   "value": 285
+ },
+ {
+   "name": "lemon chicken",
+   "value": 226
+ },
+ {
+   "name": "lemon cookie",
+   "value": 365
+ },
+ {
+   "name": "lentils",
+   "value": 116
+ },
+ {
+   "name": "lettuce",
+   "value": 15
+ },
+ {
+   "name": "lima beans",
+   "value": 123
+ },
+ {
+   "name": "little debbie cakes",
+   "value": 399
+ },
+ {
+   "name": "loaded baked potato",
+   "value": 151
+ },
+ {
+   "name": "lobster",
+   "value": 89
+ },
+ {
+   "name": "mac and cheese",
+   "value": 164
+ },
+ {
+   "name": "macaroni",
+   "value": 158
+ },
+ {
+   "name": "magnum ice cream bar",
+   "value": 331
+ },
+ {
+   "name": "mango",
+   "value": 60
+ },
+ {
+   "name": "mango salsa",
+   "value": 29
+ },
+ {
+   "name": "mango sorbet",
+   "value": 53
+ },
+ {
+   "name": "maple oatmeal",
+   "value": 365
+ },
+ {
+   "name": "mashed potatoes",
+   "value": 83
+ },
+ {
+   "name": "mayonnaise",
+   "value": 680
+ },
+ {
+   "name": "milk duds",
+   "value": 387
+ },
+ {
+   "name": "millet",
+   "value": 119
+ },
+ {
+   "name": "mixed nuts",
+   "value": 594
+ },
+ {
+   "name": "mixed vegetables",
+   "value": 64
+ },
+ {
+   "name": "mushrooms",
+   "value": 22
+ },
+ {
+   "name": "mussels",
+   "value": 172
+ },
+ {
+   "name": "nacho cheese doritos",
+   "value": 514
+ },
+ {
+   "name": "noodles",
+   "value": 131
+ },
+ {
+   "name": "oatmeal",
+   "value": 68
+ },
+ {
+   "name": "oatmeal cookie",
+   "value": 447
+ },
+ {
+   "name": "oatmeal raisin cookie",
+   "value": 435
+ },
+ {
+   "name": "oats",
+   "value": 389
+ },
+ {
+   "name": "okra",
+   "value": 33
+ },
+ {
+   "name": "olive oil",
+   "value": 884
+ },
+ {
+   "name": "onion",
+   "value": 40
+ },
+ {
+   "name": "onion rings",
+   "value": 407
+ },
+ {
+   "name": "onion-flavored potato chips",
+   "value": 531
+ },
+ {
+   "name": "orange creamsicle",
+   "value": 115
+ },
+ {
+   "name": "oranges",
+   "value": 47
+ },
+ {
+   "name": "oreo cookie",
+   "value": 469
+ },
+ {
+   "name": "oysters",
+   "value": 163
+ },
+ {
+   "name": "pancakes",
+   "value": 227
+ },
+ {
+   "name": "papaya",
+   "value": 43
+ },
+ {
+   "name": "parmesan cheese",
+   "value": 392
+ },
+ {
+   "name": "pasta",
+   "value": 131
+ },
+ {
+   "name": "pasta sauce",
+   "value": 49
+ },
+ {
+   "name": "pastry",
+   "value": 371
+ },
+ {
+   "name": "peach pie",
+   "value": 223
+ },
+ {
+   "name": "peaches",
+   "value": 39
+ },
+ {
+   "name": "peaches and cream oatmeal",
+   "value": 379
+ },
+ {
+   "name": "peanut brittle",
+   "value": 486
+ },
+ {
+   "name": "peanut butter",
+   "value": 588
+ },
+ {
+   "name": "peanuts",
+   "value": 567
+ },
+ {
+   "name": "pear",
+   "value": 57
+ },
+ {
+   "name": "peas and carrots",
+   "value": 48
+ },
+ {
+   "name": "pecan pie",
+   "value": 412
+ },
+ {
+   "name": "pecans",
+   "value": 691
+ },
+ {
+   "name": "pepperoni pizza",
+   "value": 282
+ },
+ {
+   "name": "personal pan pizza",
+   "value": 280
+ },
+ {
+   "name": "pineapple",
+   "value": 50
+ },
+ {
+   "name": "pineapple upside down cake",
+   "value": 319
+ },
+ {
+   "name": "pinto beans",
+   "value": 143
+ },
+ {
+   "name": "pistachios",
+   "value": 562
+ },
+ {
+   "name": "pita",
+   "value": 275
+ },
+ {
+   "name": "pita chips",
+   "value": 457
+ },
+ {
+   "name": "pizza",
+   "value": 266
+ },
+ {
+   "name": "plantain",
+   "value": 122
+ },
+ {
+   "name": "poached egg",
+   "value": 143
+ },
+ {
+   "name": "popcorn",
+   "value": 387
+ },
+ {
+   "name": "popcorn chicken",
+   "value": 351
+ },
+ {
+   "name": "popeyes chicken",
+   "value": 460
+ },
+ {
+   "name": "pork",
+   "value": 211
+ },
+ {
+   "name": "pork and beans",
+   "value": 106
+ },
+ {
+   "name": "pork chop",
+   "value": 231
+ },
+ {
+   "name": "pork roast",
+   "value": 194
+ },
+ {
+   "name": "pork shoulder",
+   "value": 230
+ },
+ {
+   "name": "pork tenderloin",
+   "value": 143
+ },
+ {
+   "name": "potato chips",
+   "value": 542
+ },
+ {
+   "name": "potato salad",
+   "value": 143
+ },
+ {
+   "name": "potato skins",
+   "value": 198
+ },
+ {
+   "name": "pound cake",
+   "value": 389
+ },
+ {
+   "name": "pretzels",
+   "value": 380
+ },
+ {
+   "name": "provolone cheese",
+   "value": 351
+ },
+ {
+   "name": "prune",
+   "value": 240
+ },
+ {
+   "name": "pudding",
+   "value": 130
+ },
+ {
+   "name": "pulled pork",
+   "value": 168
+ },
+ {
+   "name": "pumpkin pie",
+   "value": 204
+ },
+ {
+   "name": "pumpkin seeds",
+   "value": 559
+ },
+ {
+   "name": "quinoa",
+   "value": 120
+ },
+ {
+   "name": "rack of lamb",
+   "value": 206
+ },
+ {
+   "name": "rainbow trout",
+   "value": 150
+ },
+ {
+   "name": "raisin",
+   "value": 299
+ },
+ {
+   "name": "raisin bran",
+   "value": 314
+ },
+ {
+   "name": "raspberry",
+   "value": 52
+ },
+ {
+   "name": "raw oysters",
+   "value": 81
+ },
+ {
+   "name": "red pepper",
+   "value": 31
+ },
+ {
+   "name": "red potatoes",
+   "value": 89
+ },
+ {
+   "name": "reese''s peanut butter cup",
+   "value": 515
+ },
+ {
+   "name": "ribs",
+   "value": 220
+ },
+ {
+   "name": "rice",
+   "value": 97
+ },
+ {
+   "name": "rice cakes",
+   "value": 387
+ },
+ {
+   "name": "rice pudding",
+   "value": 118
+ },
+ {
+   "name": "ricotta cheese",
+   "value": 174
+ },
+ {
+   "name": "roast beef",
+   "value": 218
+ },
+ {
+   "name": "roast beef sandwich",
+   "value": 249
+ },
+ {
+   "name": "roasted red pepper",
+   "value": 18
+ },
+ {
+   "name": "romaine lettuce",
+   "value": 17
+ },
+ {
+   "name": "salmon",
+   "value": 182
+ },
+ {
+   "name": "sardine",
+   "value": 185
+ },
+ {
+   "name": "sausage",
+   "value": 339
+ },
+ {
+   "name": "sausage biscuit",
+   "value": 371
+ },
+ {
+   "name": "sausage gravy",
+   "value": 119
+ },
+ {
+   "name": "sausage mcmuffin",
+   "value": 333
+ },
+ {
+   "name": "sauteed onions",
+   "value": 132
+ },
+ {
+   "name": "scalloped potatoes",
+   "value": 88
+ },
+ {
+   "name": "scallops",
+   "value": 111
+ },
+ {
+   "name": "scrambled eggs",
+   "value": 149
+ },
+ {
+   "name": "sea bass",
+   "value": 124
+ },
+ {
+   "name": "sesame seeds",
+   "value": 573
+ },
+ {
+   "name": "shortcake",
+   "value": 346
+ },
+ {
+   "name": "shrimp",
+   "value": 119
+ },
+ {
+   "name": "shrimp pasta",
+   "value": 91
+ },
+ {
+   "name": "shrimp salad",
+   "value": 45
+ },
+ {
+   "name": "side salad",
+   "value": 16
+ },
+ {
+   "name": "smoked ham",
+   "value": 99
+ },
+ {
+   "name": "smoked salmon",
+   "value": 117
+ },
+ {
+   "name": "smoked turkey",
+   "value": 221
+ },
+ {
+   "name": "snapper",
+   "value": 128
+ },
+ {
+   "name": "snickers ice cream bar",
+   "value": 323
+ },
+ {
+   "name": "soft pretzels",
+   "value": 338
+ },
+ {
+   "name": "soft serve",
+   "value": 222
+ },
+ {
+   "name": "spaghetti",
+   "value": 158
+ },
+ {
+   "name": "spaghetti and meatballs",
+   "value": 97
+ },
+ {
+   "name": "spaghetti squash",
+   "value": 27
+ },
+ {
+   "name": "spicy chicken",
+   "value": 253
+ },
+ {
+   "name": "spinach",
+   "value": 23
+ },
+ {
+   "name": "split pea soup",
+   "value": 71
+ },
+ {
+   "name": "steak",
+   "value": 214
+ },
+ {
+   "name": "steak egg and cheese bagel",
+   "value": 282
+ },
+ {
+   "name": "steamed broccoli",
+   "value": 35
+ },
+ {
+   "name": "strawberries",
+   "value": 32
+ },
+ {
+   "name": "strawberry cream cheese",
+   "value": 295
+ },
+ {
+   "name": "strawberry ice cream",
+   "value": 192
+ },
+ {
+   "name": "strawberry jam",
+   "value": 278
+ },
+ {
+   "name": "sugar cookie",
+   "value": 472
+ },
+ {
+   "name": "sundried tomato",
+   "value": 258
+ },
+ {
+   "name": "sunflower seeds",
+   "value": 584
+ },
+ {
+   "name": "sweet and sour chicken",
+   "value": 250
+ },
+ {
+   "name": "sweet potato",
+   "value": 90
+ },
+ {
+   "name": "sweetened condensed milk",
+   "value": 321
+ },
+ {
+   "name": "swiss chard",
+   "value": 19
+ },
+ {
+   "name": "swiss cheese",
+   "value": 380
+ },
+ {
+   "name": "swordfish",
+   "value": 172
+ },
+ {
+   "name": "tangerines",
+   "value": 53
+ },
+ {
+   "name": "taro",
+   "value": 142
+ },
+ {
+   "name": "tempeh",
+   "value": 196
+ },
+ {
+   "name": "thin crust pizza",
+   "value": 302
+ },
+ {
+   "name": "tofu",
+   "value": 70
+ },
+ {
+   "name": "tomato",
+   "value": 18
+ },
+ {
+   "name": "tomato sauce",
+   "value": 29
+ },
+ {
+   "name": "tortilla",
+   "value": 218
+ },
+ {
+   "name": "trout",
+   "value": 190
+ },
+ {
+   "name": "tuna",
+   "value": 184
+ },
+ {
+   "name": "tuna salad",
+   "value": 187
+ },
+ {
+   "name": "turkey",
+   "value": 135
+ },
+ {
+   "name": "turkey bacon",
+   "value": 382
+ },
+ {
+   "name": "turkey burger",
+   "value": 249
+ },
+ {
+   "name": "turkey leg",
+   "value": 208
+ },
+ {
+   "name": "turkey necks",
+   "value": 162
+ },
+ {
+   "name": "turkey sausage",
+   "value": 196
+ },
+ {
+   "name": "turkey wings",
+   "value": 163
+ },
+ {
+   "name": "turnip greens",
+   "value": 32
+ },
+ {
+   "name": "turnips",
+   "value": 28
+ },
+ {
+   "name": "veal",
+   "value": 202
+ },
+ {
+   "name": "veggie burger",
+   "value": 177
+ },
+ {
+   "name": "veggie burrito",
+   "value": 206
+ },
+ {
+   "name": "venison",
+   "value": 149
+ },
+ {
+   "name": "vienna sausages",
+   "value": 230
+ },
+ {
+   "name": "walnuts",
+   "value": 654
+ },
+ {
+   "name": "watermelon",
+   "value": 30
+ },
+ {
+   "name": "wendy''s old fashioned hamburgers",
+   "value": 243
+ },
+ {
+   "name": "white bread",
+   "value": 265
+ },
+ {
+   "name": "white cheddar popcorn",
+   "value": 526
+ },
+ {
+   "name": "whole wheat pancakes",
+   "value": 208
+ },
+ {
+   "name": "whole wheat toast",
+   "value": 306
+ },
+ {
+   "name": "wild rice",
+   "value": 101
+ },
+ {
+   "name": "yellow cake",
+   "value": 361
+ },
+ {
+   "name": "yogurt",
+   "value": 63
+ },
+ {
+   "name": "zebra cakes",
+   "value": 374
+ },
+ {
+   "name": "zucchini",
+   "value": 17
+ },
+ {
+   "name": "burgar",
+   "value": 295
+ },
+ {
+   "name": "roti",
+   "value": 112
+ }
+]
