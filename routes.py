@@ -1,3 +1,6 @@
+#https://www.cdc.gov/diabetes/diabetesatwork/plan/costs.html
+#http://www.diabetes.org/diabetes-basics/statistics/infographics/adv-staggering-cost-of-diabetes.html
+#http://www.diabetes.org/diabetes-basics/statistics/infographics/adv-staggering-cost-of-diabetes.html
 from flask import Flask, render_template, request, session, redirect, url_for
 #from models import db, User, Place
 from forms import SignupForm, LoginForm, ForgotForm
@@ -100,12 +103,8 @@ def home():
     return redirect(url_for('login'))
 
   elif request.method == 'GET':
-<<<<<<< HEAD
     print(session['email'])
     return render_template("main.html", saving=gm.money(session['email']), email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions")
-=======
-    return render_template("main.html", saving=gm.money(session['email']), email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions",diabetes_per="30")
->>>>>>> 4a3333e80ab1ff8c25e3fba218bfff26d24ad08e
 
 if __name__ == "__main__":
     app.run(debug=True)
