@@ -1,34 +1,30 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block content %}
+<div class="container">
+  <div class="section-content">
+    <h2>Log in</h2>
 
-{% block content %}
-  <main class="hero-section">
-    <div class="container">
+    <form method="POST" action="/login">
+      {{ form.hidden_tag() }}
 
-      <div class="section-content">
-      <h2>Log in</h2>
+      <div class="form-group">
+        {{ form.email.label }} {% if form.email.errors %} {% for error in form.email.errors %}
+        <p class="error-message">{{ error }}</p>
+        {% endfor %} {% endif %} {{ form.email }}
+      </div>
 
-      <form method="POST" action="/login">
-        {{ form.hidden_tag() }}
+      <div class="form-group">
+        {{ form.password.label }} {% if form.password.errors %} {% for error in form.password.errors %}
+        <p class="error-message">{{ error }}</p>
+        {% endfor %} {% endif %} {{ form.password }}
+      </div>
 
-        <div class="form-group">
-          {{ form.email.label }}
-          {{ form.email }}
-        </div>
+      {{ form.submit(class="btn-primary") }}
 
-        <div class="form-group">
-          {{ form.password.label }}
-          {{ form.password }}
-        </div>
-
-        {{ form.submit(class="btn-primary") }}
-
-      </form>
-    </div>
-    
-    <div class="clearfix"></div>
-  
+    </form>
   </div>
-  </main>
+
+  <div class="clearfix"></div>
+
+</div>
+</main>
 {% endblock %}
-
-
