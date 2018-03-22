@@ -12,7 +12,10 @@ app.secret_key = "development-key"
 
 @app.route("/")
 def index():
-  return render_template("index.html")
+      if 'email' in session:
+            return redirect(url_for('home'))
+      else:
+            return render_template("index.html")
 
 @app.route("/about")
 def about():
@@ -97,8 +100,12 @@ def home():
     return redirect(url_for('login'))
 
   elif request.method == 'GET':
+<<<<<<< HEAD
     print(session['email'])
     return render_template("main.html", saving=gm.money(session['email']), email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions")
+=======
+    return render_template("main.html", saving=gm.money(session['email']), email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions",diabetes_per="30")
+>>>>>>> 4a3333e80ab1ff8c25e3fba218bfff26d24ad08e
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -17,3 +17,6 @@ def get_name(email):
     username = str(temp_result["First_Name"])+" "+str(temp_result["Last_Name"])
     return str(username)
     #return "test"
+
+def get_value(email):
+    

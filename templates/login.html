@@ -1,52 +1,30 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block content %}
+<div class="container">
+  <div class="section-content">
+    <h2>Log in</h2>
 
-{% block content %}
-  <main class="hero-section">
-    <div class="container">
+    <form method="POST" action="/login">
+      {{ form.hidden_tag() }}
 
-      <div class="section-content">
-      <h2>Log in</h2>
-
-      <form method="POST" action="/login">
-        {{ form.hidden_tag() }}
-
-        <div class="form-group">
-          {{ form.email.label }}
-          {{ form.email }}
-        </div>
-
-        <div class="form-group">
-          {{ form.password.label }}
-          {{ form.password }}
-        </div>
-
-        {{ form.submit(class="btn-primary") }}
-
-      </form>
-    </div>
-      <div class="section-device">
-        <img src="1.jpg" name="slide" alt="imageslideshow" width="400" height="400">
-        <script type="text/javascript">
-
-<!--
-var step=1
-function slideit(){
-  document.images.slide.src=eval("image"+step+".src")
-  if (step<8)
-    step++
-  else
-    step=1
-setTimeout("slideit()",2500)
-}
-slideit();
-//-->
-</script>
+      <div class="form-group">
+        {{ form.email.label }} {% if form.email.errors %} {% for error in form.email.errors %}
+        <p class="error-message">{{ error }}</p>
+        {% endfor %} {% endif %} {{ form.email }}
       </div>
 
-      <div class="clearfix"></div>
+      <div class="form-group">
+        {{ form.password.label }} {% if form.password.errors %} {% for error in form.password.errors %}
+        <p class="error-message">{{ error }}</p>
+        {% endfor %} {% endif %} {{ form.password }}
+      </div>
 
-    </div>
-  </main>
+      {{ form.submit(class="btn-primary") }}
+
+    </form>
+  </div>
+
+  <div class="clearfix"></div>
+
+</div>
+</main>
 {% endblock %}
-
-
