@@ -285,3 +285,15 @@ header {
 .leaflet-popup-content p {
   margin: 10px 0 ;
 }
+
+
+.user-image{
+widows: 50px;
+height: 50px;
+}
+.user-fullname {
+font-size: 15px;
+}
+.user-email{
+font-size: 15px;
+}
