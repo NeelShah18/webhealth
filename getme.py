@@ -24,5 +24,11 @@ def line_value(email):
     return json.dumps(avgCal.valEar)
 
 def get_per(email):
-    
-    return 0
+    temp_result = db.login.find_one({"Email" : str(email)})
+    per = str(temp_result['per'])
+    return per
+
+def get_money(email):
+    temp_result = db.login.find_one({"Email" : str(email)})
+    money = str(temp_result['money'])
+    return money
