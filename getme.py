@@ -1,4 +1,6 @@
 from pymongo import MongoClient
+import json
+import avgCal
 
 client = MongoClient()
 client = MongoClient('localhost', 27017)
@@ -18,5 +20,8 @@ def get_name(email):
     return str(username)
     #return "test"
 
+def line_value(email):
+    return json.dumps(avgCal.valEar)
+
 def get_value(email):
-    
+    return 0
