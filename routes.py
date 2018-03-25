@@ -104,7 +104,7 @@ def home():
 
   elif request.method == 'GET':
     #print(session['email'])
-    return render_template("main.html", saving=gm.money(session['email']), email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions", per=gm.get_per(session['email']),money=gm.get_money(session['email']))
+    return render_template("main.html", email=str(session['email']), name=gm.get_name(session['email']), facebook="7 Millions", Twitter="7.5 Millions", per=gm.get_per(session['email']),saving=gm.get_money(session['email']))
 
 if __name__ == "__main__":
     app.run(debug=True)

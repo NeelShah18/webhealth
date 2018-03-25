@@ -85,8 +85,8 @@ def singup(firstname, lastname, username, password, email, food, exer):
         "Food" : str(food),
         "Exer" : str(exer),
         "cal" : temp_cal,
-        "per" : cp.Count_per(temp_cal),
-        "money" : cp.Count_money(cp.Count_per(temp_cal))
+        "per" : str(cp.Count_per(temp_cal[2])),
+        "money" : str(cp.Count_money(cp.Count_per(temp_cal[2])))
     }
     return_json = {}
     try:

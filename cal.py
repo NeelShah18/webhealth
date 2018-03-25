@@ -1,6 +1,7 @@
 import json
 dic=json.load(open("cal.json"))
 dic_se=json.load(open("se.json"))
+
 def Count_cal(text_food, text_exe):
     val = 1785
     count = 0
@@ -24,10 +25,17 @@ def Count_cal(text_food, text_exe):
     return [cal_val, burn_val,r_value]
 
 def Count_per(temp):
-    new_val = (int(temp) - 1750)/10
+    print(temp)
+    new_val = int(temp)/10
+    if new_val<0:
+        new_val = 0
+    elif new_val>100:
+        new_val=100
+    print("new:"+str(new_val))
     return new_val
 
 def Count_money(per):
+    print(per)
     sav = 0.0
     if float(per)>=50:
         sav=((per*7900)/100)

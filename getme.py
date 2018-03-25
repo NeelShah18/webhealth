@@ -7,11 +7,6 @@ client = MongoClient('localhost', 27017)
 db = client['webhealth']
 collection = db['userdata']
 
-def money(email):
-    #temp_result = collection.find_one({"Email" : str(email)})
-    #return temp_result["Saving"]
-    return 0
-
 def get_name(email):
     #print(email)
     temp_result = db.login.find_one({"Email" : str(email)})
@@ -21,14 +16,14 @@ def get_name(email):
     #return "test"
 
 def line_value(email):
-    return json.dumps(avgCal.valEar)
+    return str(avgCal.valEar)
 
 def get_per(email):
     temp_result = db.login.find_one({"Email" : str(email)})
     per = str(temp_result['per'])
-    return per
+    return str(per)
 
 def get_money(email):
     temp_result = db.login.find_one({"Email" : str(email)})
     money = str(temp_result['money'])
-    return money
+    return str(money)
