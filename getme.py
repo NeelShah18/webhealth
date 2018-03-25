@@ -13,9 +13,9 @@ def money(email):
     return 0
 
 def get_name(email):
-    print(email)
+    #print(email)
     temp_result = db.login.find_one({"Email" : str(email)})
-    print(temp_result)
+    #print(temp_result)
     username = str(temp_result["First_Name"])+" "+str(temp_result["Last_Name"])
     return str(username)
     #return "test"
@@ -23,5 +23,6 @@ def get_name(email):
 def line_value(email):
     return json.dumps(avgCal.valEar)
 
-def get_value(email):
+def get_per(email):
+    
     return 0

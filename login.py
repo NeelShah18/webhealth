@@ -71,6 +71,7 @@ def update(email_txt, password_txt):
 
 def singup(firstname, lastname, username, password, email, food, exer):
     flag = False
+    temp_cal = cp.Count_cal(text_food=str(food), text_exe=str(exer))
     userdata_json = {
     "Email" : str(email),
     "Saving" : str(random.choice(sav))
@@ -83,7 +84,9 @@ def singup(firstname, lastname, username, password, email, food, exer):
         "Last_Name" : str(lastname),
         "Food" : str(food),
         "Exer" : str(exer),
-        "ana" : cp.Count_cal(text_food=str(food), text_exe=str(exer))
+        "cal" : temp_cal,
+        "per" : cp.Count_per(temp_cal),
+        "money" : cp.Count_money(cp.Count_per(temp_cal))
     }
     return_json = {}
     try:
