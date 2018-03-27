@@ -900,7 +900,7 @@ aside.left-panel {
         line-height: 30px;
         padding: 10px 0;
         position: relative;
-        width: 100%; }
+        }
         .navbar .navbar-nav li > a:hover, .navbar .navbar-nav li > a:hover .menu-icon {
           color: #fff !important; }
         .navbar .navbar-nav li > a .menu-icon {
