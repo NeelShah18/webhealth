@@ -297,3 +297,8 @@ font-size: 15px;
 .user-email{
 font-size: 15px;
 }
+
+.widgetshadowbox{
+  box-shadow: 1px 1px 15px grey;
+  line-height: 0;
+}

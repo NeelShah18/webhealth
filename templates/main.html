@@ -6,7 +6,8 @@
 <html class="no-js" lang="">
 <!--<![endif]-->
 <!-- Dashboard after login page-->
-<!-- Loading the reference link and CSS for the final dashboard --> 
+<!-- Loading the reference link and CSS for the final dashboard -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -111,7 +112,7 @@
 
 
         <div class="col-sm-6 col-lg-3">
-            <div class="card text-white bg-flat-color-1">
+            <div class="card text-white bg-flat-color-1 widgetshadowbox">
                 <div class="card-body pb-0">
                     <h4 class="mb-0">
                         <span class="text">Facebook</span>
@@ -125,7 +126,7 @@
         </div>
 
         <div class="col-sm-6 col-lg-3">
-            <div class="card text-white bg-flat-color-2">
+            <div class="card text-white bg-flat-color-2 widgetshadowbox">
                 <div class="card-body pb-0">
                     <h4 class="mb-0">
                         <span class="text">Twitter</span>
@@ -139,7 +140,7 @@
         </div>
 
         <div class="col-sm-6 col-lg-3">
-            <div class="card text-white bg-flat-color-3">
+            <div class="card text-white bg-flat-color-3 widgetshadowbox">
                 <div class="card-body pb-0">
                     <h4 class="mb-0">
                         <span class="text">Favourite Food</span>
@@ -153,7 +154,7 @@
         </div>
 
         <div class="col-sm-6 col-lg-3">
-            <div class="card text-white bg-flat-color-4">
+            <div class="card text-white bg-flat-color-4 widgetshadowbox">
                 <div class="card-body pb-0">
                     <h4 class="mb-0">
                         <span class="text">Favourite Exercises</span>
@@ -167,49 +168,52 @@
         </div>
 
 
+
+
+        <div class="col-xl-3 col-lg-6">
+            <div class="card widgetshadowbox">
+                <div class="card-body pb-0" style="min-height:151px;">
+                    <div class="stat-widget-one" style="text-align:center;">
+                        <div style="padding-bottom:10px;">
+                           <b>
+                               <div class="stat-text">Chances of Diabetes</div>
+                            </b>
+                        </div>
+                        <div class="stat-icon dib">
+                            <i class="text-success border-success">{{diabetes_per}}%</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
+        <div class="clearfix"></div>
 
-        <div class="col-xl-3 col-lg-6">
-            <div class="card">
-                <div class="card-body" style="min-height:151px;">
-                    <div class="stat-widget-one">
-                        <div class="stat-icon dib">
-                            <i class="ti-money text-success border-success"></i>
+        <div class="col-xl-3 col-lg-6" >
+            <div class="card widgetshadowbox">
+                <div class="card-body pb-0" style="min-height:151px;">
+                        <div class="stat-widget-one" style="text-align:center;">
+                            <div style="padding-bottom:10px;">
+                            <b>
+                                <div class="stat-text">Approx. Medical Expense / year</div>
+                            </b>
                         </div>
-                        <div class="stat-content dib">
-                            <div class="stat-text">Chances of Diabetes</div>
-                            <div class="stat-digit">{{diabetes_per}}%</div>
+                        <div class="stat-icon dib">
+                            <i class="text-success border-success">${{ medical_cost }}</i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-xl-3 col-lg-6">
-            <div class="card">
-                <div class="card-body" style="min-height:151px;">
-                    <div class="stat-widget-one">
-                        <div class="stat-icon dib">
-                            <i class="ti-money text-success border-success"></i>
-                        </div>
-                        <div class="stat-content dib">
-                            <div class="stat-text">Approx. Medical Expense</div>
-                            <div class="stat-text">/year</div>
-                            <div class="stat-digit">{{ medical_cost }}</div>
-                        </div>
-                    </div>
+        <div class="col-lg-6" style="margin-top:-177px;">
+            <div class="card widgetshadowbox">
+                <div class="card-body">
+                    <h4 class="mb-3">Avg Caloric Consumption in U.S.A. per person from 2010 - 2017</h4>
+                    <canvas id="team-chart"></canvas>
                 </div>
             </div>
         </div>
-
-        <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="mb-3">Avg Caloric Consumption in U.S.A. per person from 2010 - 2017</h4>
-                        <canvas id="team-chart"></canvas>
-                    </div>
-                </div>
-            </div>
 
     </div>
     <!-- Right Panel -->
@@ -223,26 +227,7 @@
     <script src="static/js/lib/chart-js/Chart.bundle.js"></script>
     <script src="static/js/lib/chart-js/chartjs-init.js"></script>
 
-    <script src="static/js/dashboard.js"></script>
     <script src="static/js/widgets.js"></script>
-    <script>
-        (function ($) {
-            "use strict";
-
-            jQuery('#vmap').vectorMap({
-                map: 'world_en',
-                backgroundColor: null,
-                color: '#ffffff',
-                hoverOpacity: 0.7,
-                selectedColor: '#1de9b6',
-                enableZoom: true,
-                showTooltip: true,
-                values: sample_data,
-                scaleColors: ['#1de9b6', '#03a9f5'],
-                normalizeFunction: 'polynomial'
-            });
-        })(jQuery);
-    </script>
 
 </body>
 
